@@ -73,6 +73,30 @@ button:hover{
   line-height: 4.5rem;
 }
 
+.text span{
+flex-grow:1;
+}
+
+@media screen and (max-width:950px) {
+  .container {
+    padding-top:0rem;
+  }
+  input {
+    font-size:7rem;
+    height:7rem;
+    width: 7rem;
+}
+ .days {
+      font-size: 4rem;
+    }
+ .text {
+   padding-top:0.5rem;
+   font-size:2rem;
+   line-height:2rem;
+ }
+
+}
+
 
 @media screen and (max-width:800px) {
  .container {
