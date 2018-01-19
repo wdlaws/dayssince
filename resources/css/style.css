@@ -27,6 +27,7 @@ input {
 .container {
   margin: 0.5rem auto;
   padding-top:2rem;
+  width:100%;
 }
 
 .days {
@@ -73,7 +74,6 @@ button:hover{
 @media screen and (max-width:800px) {
  .container {
    padding-top:0rem;
-   width:99%;
     }
 
   .counter {
@@ -83,8 +83,8 @@ button:hover{
 
   input {
     font-size:7rem;
-    height: 10rem;
-    width: 10rem;
+    height: 7rem;
+    width: 7rem;
   }
   .days {
     font-size: 3rem;
@@ -92,13 +92,13 @@ button:hover{
   }
 
   .text {
-    width: 80%;
+    width: 95%;
     font-size:1rem;
     line-height: 2rem;
   }
 
   .buttons button {
-    width: 20%;
+    width: auto;
     font-size:1rem;
       }
 }
