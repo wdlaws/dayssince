@@ -1,0 +1,107 @@
+html {
+  font-size:18px;
+}
+
+body {
+font-family: 'Comfortaa', cursive;
+}
+
+.counter {
+  display:flex;
+  margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-family: 'Indie Flower', cursive;
+  color:midnightblue;
+  font-size: 11rem;
+  height: 12rem;
+  width: 12rem;
+  text-align:center;
+  border: 2px solid firebrick;
+  border-radius: 7px;
+}
+
+.container {
+  width: 75%;
+  margin: 0.5rem auto;
+  padding-top:2rem;
+}
+
+.days {
+  display:flex;
+  margin: 3rem auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+}
+
+.buttons {
+  display:flex;
+  margin: 1rem auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.buttons button {
+  color:white;
+  background-color:firebrick;
+  width: 7.5%;
+  padding: 0.5rem;
+  margin:1rem;
+  text-align: center;
+  border-radius:5px;
+}
+
+button:hover{
+  background-color:salmon;
+}
+
+.text {
+  display:flex;
+  margin: 0rem auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:470px) {
+ .container {
+   padding-top:0rem;
+   width:100%;
+ }
+
+  .counter {
+    margin-right:0;
+    margin-bottom: 1.5rem;
+  }
+
+  input {
+    font-size:7rem;
+    height: 10rem;
+    width: 10rem;
+  }
+  .days {
+    font-size: 3rem;
+    flex-direction:column;
+  }
+
+  .text {
+    width: 80%;
+    font-size:1rem;
+    line-height: 2rem;
+  }
+
+  .buttons button {
+    width: 15%;
+      }
+}
