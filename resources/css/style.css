@@ -104,10 +104,7 @@ flex-grow:1;
 
  .container {
    padding-top:0rem;
-   align-items:center;
-   flex-direction: column;
-   justify-content: center;
-      }
+    }
 
   .counter {
     margin-right:0;
