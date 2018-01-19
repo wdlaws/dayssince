@@ -17,6 +17,7 @@ font-family: 'Comfortaa', cursive;
   border-radius: 7px;
 
 
+
 }
 
 input {
@@ -29,11 +30,6 @@ input {
   border-width:0;
 }
 
-.container {
-  margin: 0.5rem auto;
-  padding-top:2rem;
-  width:90%;
-}
 
 .days {
   display:flex;
@@ -80,9 +76,7 @@ flex-grow:1;
 }
 
 @media screen and (max-width:1000px) {
-  .container {
-    padding-top:0rem;
-  }
+  
   input {
     font-size:7rem;
     height:7rem;
@@ -102,9 +96,6 @@ flex-grow:1;
 
 @media screen and (max-width:800px) {
 
- .container {
-   padding-top:0rem;
-    }
 
   .counter {
     margin-right:0;
