@@ -73,7 +73,7 @@ button:hover{
 
 @media screen and (max-width:800px) {
  .container {
-   padding-top:0rem;
+   padding-top:3rem;
     }
 
   .counter {
