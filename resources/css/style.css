@@ -70,11 +70,44 @@ button:hover{
   line-height: 4.5rem;
 }
 
-@media screen and (max-width:1024px) {
+@media screen only and (max-width:1024px) {
 
 }
 
-@media screen and (max-width:470px) {
+@media screen only and (max-width:750px) {
+ .container {
+   padding-top:0rem;
+   width:100%;
+ }
+
+  .counter {
+    margin-right:0;
+    margin-bottom: 1.5rem;
+  }
+
+  input {
+    font-size:7rem;
+    height: 10rem;
+    width: 10rem;
+  }
+  .days {
+    font-size: 3rem;
+    flex-direction:column;
+  }
+
+  .text {
+    width: 80%;
+    font-size:1rem;
+    line-height: 2rem;
+  }
+
+  .buttons button {
+    width: 15%;
+      }
+}
+
+@media screen only and (max-width:750px)
+and (-webkit-min-device-pixel-ratio: 2){
  .container {
    padding-top:0rem;
    width:100%;
