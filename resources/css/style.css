@@ -102,15 +102,13 @@ flex-grow:1;
 
 
 @media screen and (max-width:800px) {
-body {
-  width:100%;
-}
 
  .container {
    padding-top:0rem;
    align-items:center;
    flex-direction: column;
    justify-content: center;
+   width:700px;
     }
 
   .counter {
